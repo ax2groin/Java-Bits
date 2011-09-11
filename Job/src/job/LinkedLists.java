@@ -3,9 +3,6 @@ package job;
 import java.util.Arrays;
 import java.util.LinkedList;
 
-import job.LinkedLists.List;
-import job.LinkedLists.MutableList;
-
 public final class LinkedLists {
 
 	public static interface List<T> {
@@ -127,6 +124,7 @@ public final class LinkedLists {
 	 *     
 	 *     !! I say the follow up cannot be done with Java's LinkedList or my homebrew
 	 */
+	@SuppressWarnings("unchecked")
 	public static <T> List<T> rmDuplicates(List<T> base) {
 		return rmDups(base, (List<T>) emptyList());
 	}
@@ -279,7 +277,10 @@ public final class LinkedLists {
 				return false;
 			if (getClass() != obj.getClass())
 				return false;
+			
+			@SuppressWarnings("unchecked")
 			MutableList<T> other = (MutableList<T>) obj;
+			
 			Node<T> node = head;
 			Node<T> that = other.head;
 			
