@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class IOHandler {
+public final class IOHandler {
 
     public static void print(String input) {
         System.out.print(input);

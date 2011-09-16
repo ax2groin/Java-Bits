@@ -6,7 +6,7 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.OutputStream;
 
-public class DeepCopy {
+public final class DeepCopy {
 
     /**
      * ByteArrayInputStream implementation that does not synchronize methods.
