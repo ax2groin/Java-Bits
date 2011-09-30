@@ -1,15 +1,21 @@
 package job;
 
-import static org.junit.Assert.*;
-import static stacks.StacksAndQueues.*;
+import static job.stacks.StacksAndQueues.sort;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+import job.stacks.ArrayBackedStack;
+import job.stacks.MinStack;
+import job.stacks.MyQueue;
+import job.stacks.SetOfStacks;
+import job.stacks.StacksAndQueues.MyStack;
+import job.stacks.StacksAndQueues.Stack;
+import job.stacks.StacksAndQueues.StackFullException;
+import job.stacks.TowersOfHanoi;
 
 import org.junit.Test;
-
-import stacks.ArrayBackedStack;
-import stacks.MinStack;
-import stacks.MyQueue;
-import stacks.SetOfStacks;
-import stacks.TowersOfHanoi;
 
 public class StacksAndQueuesTests {
 
