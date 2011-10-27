@@ -2,11 +2,26 @@ package job;
 
 import java.util.Arrays;
 
+/**
+ * This class is not intended to be instantiated, but is a container for methods
+ * associated with questions against arrays or strings.
+ * 
+ * @author ax2groin
+ */
 public final class ArraysAndStrings {
 
     /*
      * 1.1 Implement an algorithm to determine if a string has all unique
      * characters. What if you cannot use additional data structures?
+     */
+    
+    /**
+     * Determine if each character in an input string is unique, i.e., it does
+     * not repeat within the string.
+     * 
+     * @param input {@code String} to check.
+     * 
+     * @return true if all the characters in the {@code input} string are unique.
      */
     public static boolean areCharsUnique(String input) {
         // Don't need to check last char and don't attempt invalid substring

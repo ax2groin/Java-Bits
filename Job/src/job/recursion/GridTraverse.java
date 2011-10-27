@@ -43,7 +43,7 @@ public final class GridTraverse {
         }
 
         /**
-         * Move up in the grid.
+         * Move "up" in the grid.
          * 
          * @return new Point with the y value increased by one.
          */
@@ -52,7 +52,7 @@ public final class GridTraverse {
         }
 
         /**
-         * Move right in the grid.
+         * Move "right" in the grid.
          * 
          * @return new Point with x value increased by one.
          */
@@ -79,6 +79,7 @@ public final class GridTraverse {
         }
     }
 
+    // This is just a semantic convenience. I think it makes the code more readable.
     @SuppressWarnings("serial")
     public static final class Path extends CopyOnWriteArrayList<Point> {
     }

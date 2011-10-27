@@ -14,7 +14,8 @@ public final class Combinatorics {
      * Return all n-sized combinations of a set.
      * 
      * NOTE: Implicit assumption that coll does not contain duplicates.
-     *       Using a List because Java's Set does not allow us to grab the first item.
+     *       Using a List because Java's Set does not allow us to grab the first item,
+     *       and I didn't want to go outside the standard API here.
      * 
      * @param coll
      *            Collection from which to draw combinations.
