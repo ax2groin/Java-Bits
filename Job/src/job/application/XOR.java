@@ -6,6 +6,14 @@ import java.util.Map;
 import java.util.Set;
 
 /**
+ * Please note: This sample code was judged to be complete crap by the company
+ * who asked for it, so it is ill-advised to use this example in a positive way.
+ * They took issue with the inefficient use of a Map (I did this because I felt
+ * that the evaluation of a maximum value and the calculation of the value were
+ * separate concerns). They also didn't like that I always return a value, but
+ * instead would have preferred an Exception in the case of circular references
+ * (I disagree with this approach).
+ * 
  * @author Michael S. Daines
  */
 public final class XOR {
