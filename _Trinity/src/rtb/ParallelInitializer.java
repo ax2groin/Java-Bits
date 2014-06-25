@@ -45,6 +45,7 @@ public final class ParallelInitializer {
           }
         }
       });
+    stateInitializer.shutdown();
 
     for (int i = 0; i < objUIDs.length; i++)
       try {
