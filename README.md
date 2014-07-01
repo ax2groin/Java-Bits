@@ -4,7 +4,7 @@ This repository is meant for my Java code. It will include reference code sample
 
 ##Jobs
 
-This is the code I am writing as I work my way through the problems in "Cracking the Coding Interview", by Gayle Laakmann.
+This is the code I wrote as I worked my way through the problems in "Cracking the Coding Interview", by Gayle Laakmann.
 
 -----
 
