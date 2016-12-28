@@ -11,3 +11,9 @@ This is the code I wrote as I worked my way through the problems in "Cracking th
 ##_Trinity
 
 Repository of useful code references and examples. The 'effective' project is specifically examples from "Effective Java" that I want a quick reference to.
+
+-----
+
+## Exercism
+
+Repository of answer to Java problems from [Exercism](http://exercism.io/languages/java/about)
